@@ -36,3 +36,14 @@ purple-team-proj/
 └── diagrams/
     └── network-topology.png   # Network topology diagram
 ``
+
+## Methodology
+
+| Phase | Description | Where to look |
+|-------|-------------|---------------|
+| 1. Design | Build and document the lab network | `docs/architecture.md`, `diagrams/` |
+| 2. Threat model | Identify assets, threats, and attack paths | `docs/threat-model.md` |
+| 3. Baseline | Capture the unhardened state and run attack simulations | `configs/`, `evidence/baseline/` |
+| 4. Detection | Write rules and scripts to catch the activity | `detection/`, `scripts/` |
+| 5. Hardening | Apply fixes to router configs and ACLs | `configs/`, `evidence/hardened/` |
+| 6. Validation | Re-test and compare against the baseline | `docs/incident-report.md` |

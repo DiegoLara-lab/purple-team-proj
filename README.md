@@ -35,7 +35,7 @@ purple-team-proj/
 │   └── hardened/              # Screenshots and logs after hardening
 └── diagrams/
     └── network-topology.png   # Network topology diagram
-``
+```
 
 ## Methodology
 
